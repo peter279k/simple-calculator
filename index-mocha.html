@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple-calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+        <script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+        <h2>Simple Calculator</h2>
+        <p>
+            <label for="">please input the first number:</label>
+            <input id="number-one" type="text">
+        </p>
+        <p>
+            <label for="">please input the second number:</label>
+            <input id="number-two" type="text">
+        </p>
+
+        <button id="calculate">submit</button>
+
+        <div id="calculate-result"></div>
+
+        <div id="mocha"><p>Index</div>
+        <div id="messages"></div>
+        <div id="fixtures"></div>
+
+        <script src="https://cdn.rawgit.com/Automattic/expect.js/0.3.1/index.js"></script>
+        <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+        <script src="./tests/mocha-test.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple-calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.0.1.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+        <script src="https://code.jquery.com/qunit/qunit-2.0.1.js"></script>
+        <script src="./tests/qunit-test.js"></script>
+    </head>
+    <body>
+        <h2>Simple Calculator</h2>
+        <p>
+            <label for="">please input the first number:</label>
+            <input id="number-one" type="text">
+        </p>
+        <p>
+            <label for="">please input the second number:</label>
+            <input id="number-two" type="text">
+        </p>
+
+        <p>
+            <button id="calculate">submit</button>
+        </p>
+
+        <div id="calculate-result"></div>
+
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+    </body>
+</html>
